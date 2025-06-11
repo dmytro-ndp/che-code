@@ -12,8 +12,8 @@ name: rebase-insiders
 # Trigger on demand or every 4 hour
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "10 */4 * * *"
+  # schedule:
+  #   - cron: "10 */4 * * *"
   
 jobs:
 
