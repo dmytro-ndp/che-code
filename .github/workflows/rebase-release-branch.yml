@@ -12,8 +12,8 @@ name: rebase-release
 # Trigger on demand or every 12 hour
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "10 */12 * * *"
+  # schedule:
+  #   - cron: "10 */12 * * *"
   
 jobs:
 
